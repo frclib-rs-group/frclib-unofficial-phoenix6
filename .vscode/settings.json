@@ -1,0 +1,19 @@
+{
+    "rust-analyzer.check.overrideCommand": [
+        "cargo", "frc", "check",
+        "--message-format=json-diagnostic-rendered-ansi",
+        "--all-targets",
+        "--dev"
+    ],
+    //for code highlighting/opacity, doesn't effect errors
+    "rust-analyzer.cargo.cfgs": {
+        "frc": "",
+        "frc_sim": "",
+        "frc_dev": "",
+        "frc_real": ""
+    },
+    "rust-analyzer.runnables.command": "cargo frc",
+    "rust-analyzer.runnables.extraArgs": [
+        "--dev"
+    ]
+}

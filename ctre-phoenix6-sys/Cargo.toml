@@ -1,0 +1,13 @@
+[package]
+name = "ctre-phoenix6-sys"
+version = "0.1.0"
+edition = "2021"
+
+
+[build-dependencies]
+bindgen = "0.69.1"
+
+
+[package.metadata.frc]
+vendor = true
+default-check = "real"
